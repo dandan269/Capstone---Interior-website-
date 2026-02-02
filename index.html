@@ -19,7 +19,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("image/computerfix-copy.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url("image/computerfix-copy.webp");
   min-height: 100%;
 }
 
@@ -32,14 +32,15 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">WeBreakTech</a>
+  <div class="w3-bar w3-blue w3-card " id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide w3-right w3-bold
+    " >WeBreakTech</a>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
+    <div class="w3-center w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="products.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="Prices.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -62,13 +63,14 @@ body, html {
 
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-blue-white" style="padding:48px"  >
-    <span class="w3-jumbo w3-hide-small" style="background-color:rgba(125, 212, 255, 0.481)">Stop eWaste, Refurbish Your Tech</span><br>
+  <div class="w3-center w3-blue-white" style="padding:48px; margin: 20px;">
+    <span class="w3-jumbo w3-hide-small" style="color: white;">Stop eWaste. Refurbish Your Tech</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="background-color:rgba(0, 166, 255, 0.505)">Start something that matters</span><br>
-    <span class="w3-large" style="background-color:rgba(125, 212, 255, 0.779)">Stop wasting money on new tech, instead invest in a quality fix.</span>
-    <p><a href="#about" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start today</a></p>
+    <div class="w3-display-center-bottom w3-blue-white" style="padding:40px; margin: 200px;;"></div>
+    <span class="w3-xxlarge" style="color:white">Better Repairs. Better Value. Contact Us Today.</span>
+    
   </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
@@ -81,228 +83,48 @@ body, html {
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 20px" id="about">
   <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-third">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsive</p>
-      <p>We deliever fast and economic solutions for your tech needs.</p>
-    </div>
-    <div class="w3-third">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
-      <p>Our team is led by passoniante professionals with experiencce in the tech field.</p>
-    </div>
-
-    <div class="w3-third">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
-      <p>Our team provide a wide range of services, either at one of our locations or online.</p>
-    </div>
-  </div>
-</div>
-
-
-<!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">THE TEAM</h3>
-  <p class="w3-center w3-large">The ones who runs this company</p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        
-        <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        
-        <div class="w3-container">
-          <h3>Anja Doe</h3>
-          <p class="w3-opacity">Art Director</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Web Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        
-        <div class="w3-container">
-          <h3>Dan Star</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Promo Section "Statistics" -->
-<div class="w3-container w3-row w3-center w3-blue w3-padding-64">
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">1500+</span>
-    <br>PCs Repaired
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">2000+</span>
-    <br>Laptops Repaired and Serviced
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">900+</span>
-    <br>Happy Clients
-  </div>
-  <div class="w3-quarter">
-    <span class="w3-xxlarge">150+</span>
-    <br>Technicians
-  </div>
-</div>
-
-<!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
 
   <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <img src="image/microphone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Microphone Support">
+    <div class="w3-third w3-center">
+      <a href="aboutus.html">
+      <img src="image/about us .jpg" style="width:100%"  class="w3-hover-opacity" alt="About WeBreakTech ">
+      <p>About WeBreakTech</p>
+      </a>
     </div>
-    <div class="w3-col l3 m6">
-      <img src="image/phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Phone Repair">
+    <div class="w3-third w3-center">
+      <a href="products.html">
+   
+      <img src="image/techstuff.jpg" style="width:100%"  class="w3-hover-opacity" alt="Products">
+       <p>Products</p>
+  </a>
     </div>
-    <div class="w3-col l3 m6">
-      <img src="image/dones.avif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Drone Support">
+    <div class="w3-third w3-center">
+      <a href="Services.html">
+      <img src="image/services.jpeg" style="width:100%"  class="w3-hover-opacity" alt="Services">
+        <p>Services</p>
+      </a>
     </div>
-    <div class="w3-col l3 m6">
-      <img src="image/speakers.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="TV Speaker Services ">
-    </div>
+    
   </div>
+ 
 
-  <div class="w3-row-padding w3-section">
-  <div class="w3-col l3 m6">
-    <img src="image/tablets.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tablet Repair">
-  </div>
+  
 
-  <div class="w3-col l3 m6">
-    <img src="image/cam.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Camera Services">
-  </div>
 
-  <div class="w3-col l3 m6">
-    <img src="image/pcs.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="PC Repair and Services">
-  </div>
 
-  <div class="w3-col l3 m6">
-    <img src="image/laptops.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Laptop Repair and Services">
-  </div>
-</div>
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
+    
 
-<!-- Skills Section -->
-<div class="w3-container w3-light-grey w3-padding-64">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>Our Skills.</h3>
-      <p>Our team of technicans have a wide range of skills </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-      tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div class="w3-col m6">
-      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Photography</p>
-      <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
-      </div>
-      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
-      <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
-      </div>
-      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
-      <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Pricing Section -->
-<div class="w3-container w3-center w3-blue" style="padding:128px 16px" id="pricing">
-  <h3>PRICING</h3>
-  <p class="w3-large">Choose a Tech Protection Plan.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>10GB</b> Storage</li>
-        <li class="w3-padding-16"><b>10</b> Emails</li>
-        <li class="w3-padding-16"><b>10</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 10</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-48">Pro</li>
-        <li class="w3-padding-16"><b>25GB</b> Storage</li>
-        <li class="w3-padding-16"><b>25</b> Emails</li>
-        <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 25</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>50GB</b> Storage</li>
-        <li class="w3-padding-16"><b>50</b> Emails</li>
-        <li class="w3-padding-16"><b>50</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 50</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+
+
+  
+
+
+
+
+
+   
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
