@@ -26,6 +26,23 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgba(5, 88, 211, 0.956);
+  
+}
+td, th {
+  border: 3px solid #000000;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+
+
 </style>
 </head>
 <body>
@@ -37,10 +54,10 @@ body, html {
     " >WeBreakTech</a>
     <!-- Right-sided navbar links -->
     <div class="w3-center w3-hide-small">
-     <a href="Repairs.html" onclick="w3_close()" class="w3-bar-item w3-button">Repairs</a>
-  <a href="Inventory.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Inventory</a>
+       <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="Repairs.html" onclick="w3_close()" class="w3-bar-item w3-button">Repairs</a>
   <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Replacement Parts</a>
-     
+  
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -53,22 +70,77 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-
- 
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
   <a href="Repairs.html" onclick="w3_close()" class="w3-bar-item w3-button">Repairs</a>
-  <a href="Inventory.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Inventory</a>
   <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Replacement Parts</a>
-      
+  
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-center w3-blue-white" style="padding:48px; margin: 20px;">
-    <span class="w3-jumbo w3-hide-small" style="color: white;">Welcome to WeBreakTech</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="background-color:rgba(0, 166, 255, 0.505)">Start something that matters</span><br>
-    <div class="w3-display-center-bottom w3-blue-white" style="padding:40px; margin: 200px;;"></div>
-    <span class="w3-xxlarge" style="color:white">Employees Only</span>
+<header class="w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-center w3-blue" style="padding:48px; margin: 20px;">
+    <span class="w3-jumbo w3-hide-small" style="color: white;"> <u>RI Store Inventory</u> </span><br>
+
+    <div style="padding:70px; font-size: 17px"  >
+      <table>
+        <tr>
+          <th style="font-weight: bold; font-size: 24px;">Item</th>
+          <th style="font-weight: bold; font-size: 24px;">Quantity</th>
+        </tr>
+        
+        <tr>
+         <td>16GB DDR4 SDRAM Memory</td>
+         <td>30</td>
     
+        </tr>
+        <tr>
+         <td>32GB DDR4 SDRAM Memory</td>
+         <td>25</td>
+    
+        </tr>
+        <tr>
+         <td>Samsung s20 - 25+ Ultra Displays</td>
+         <td>80</td>
+    
+        </tr>
+        <tr>
+          <td>iPhone 8 - 17 Pro Max Displays</td>
+         <td>120</td>
+    
+        </tr>
+         <tr>
+         <td>Macbook 2016 - 2026 Displays</td>
+         <td>50</td>
+   
+        </tr>
+        <tr>
+         <td>Laptop Batteries</td>
+         <td>200</td>
+    
+        </tr>
+         <tr>
+         <td>HDMI, DisplayPort, USB cables</td>
+         <td>280</td>
+    
+        </tr>
+         </tr>
+        <tr>
+         <td>Power supply units</td>
+         <td>100</td>
+    
+        </tr>
+        <tr>
+         <td>Laptop Chargers</td>
+         <td>300</td>
+    
+        </tr>
+</table>
+
+
+
+
+    </div>
+   
   </div> 
   <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -80,54 +152,20 @@ body, html {
   </div>
 </header>
 
-<!-- About Section -->
-<div class="w3-container" style="padding:128px 20px; " id="about">
-  <h3 class="w3-center" style="font-size: 38px;">Our Services</h3>
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-third w3-center">
-      <a href="Repairs.html">
-      <img src="image/services.jpeg" style="width:100%"  class="w3-hover-opacity" alt="Service">
-      <p>Ongoing Repairs / Services</p>
-      </a>
-    </div>
-    <div class="w3-third w3-center">
-      <a href="Inventory.html">
-   
-      <img src="image/techstuff.jpg" style="width:100%"  class="w3-hover-opacity" alt="Products">
-       <p>In-Store Inventory</p>
-  </a>
-    </div>
-    <div class="w3-third w3-center">
-      <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D">
-      <img src="image/parts.jpg" style="width:100%"  class="w3-hover-opacity" alt="Services">
-        <p>Order Replacement Parts</p>
-      </a>
-    </div>
-    
-  </div>
- 
+  
 
   
 
 
 
 
-    
-
-
-
-
-  
-
-
-
-
-
-   
+     
 
 <!-- Contact Section -->
-
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+ 
+  
   <div style="margin-top:48px">    
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-center"></i> Rhode Island, US</p>
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-center"></i> Phone: +00 151515</p>

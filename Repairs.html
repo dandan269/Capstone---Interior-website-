@@ -26,6 +26,17 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+ .list{
+            border:1px solid rgb(50, 145, 209);
+            padding:10px;
+            margin:5px;
+            
+            
+           
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 </style>
 </head>
 <body>
@@ -37,10 +48,10 @@ body, html {
     " >WeBreakTech</a>
     <!-- Right-sided navbar links -->
     <div class="w3-center w3-hide-small">
-     <a href="Repairs.html" onclick="w3_close()" class="w3-bar-item w3-button">Repairs</a>
-  <a href="Inventory.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Inventory</a>
-  <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Replacement Parts</a>
-     
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="Inventory.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Inventory</a>
+      <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Replacement Parts</a>
+      
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -53,21 +64,35 @@ body, html {
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-
- 
-  <a href="Repairs.html" onclick="w3_close()" class="w3-bar-item w3-button">Repairs</a>
-  <a href="Inventory.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Inventory</a>
-  <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Replacement Parts</a>
-      
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-center w3-blue-white" style="padding:48px; margin: 20px;">
-    <span class="w3-jumbo w3-hide-small" style="color: white;">Welcome to WeBreakTech</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="background-color:rgba(0, 166, 255, 0.505)">Start something that matters</span><br>
-    <div class="w3-display-center-bottom w3-blue-white" style="padding:40px; margin: 200px;;"></div>
-    <span class="w3-xxlarge" style="color:white">Employees Only</span>
+<header id="home">
+  <div class="w3-center w3-light-grey" style="padding:48px; margin: 20px;">
+    <span class="w3-jumbo w3-hide-small " style="color: rgb(50, 145, 209);">Scheduled Repairs</span><br>
+   
+    <div style="padding:40px; margin: 20px;; font-size: 17px;">
+    <ol> <u>
+  <li>02/12 - 2019 Macbook Pro Battery Replacement </li>
+  <li>02/14 - Iphone 16 Front Screen Replacement</li>
+  <li>02/16 - Lenovo Thinkpad X1 Carbon Battery Replacement</li>
+  <li>02/18 - Dell XPS 13 Screen Replacement</li>
+  <li>02/20 - Samsung Galaxy S20 Display Repair</li>
+  <li>02/23 - HP Spectre X360 Keyboard Repair</li>
+  <li>02/25 - Apple Watch Series 6 Screen Replacement</li>
+  <li>03/01 - Microsoft Surface Pro 7 Touchscreen Fix</li>
+  <li>03/04 - Google Pixel 10 Screen Replacement</li>
+  <li>03/06 - Playstation 5 Controller Repair</li>
+  </u>
+  
+</ol>
+</div>
+
     
   </div> 
   <div class="w3-display-bottomright w3-text-white w3-large" style="padding:24px 48px">
@@ -80,32 +105,8 @@ body, html {
   </div>
 </header>
 
-<!-- About Section -->
-<div class="w3-container" style="padding:128px 20px; " id="about">
-  <h3 class="w3-center" style="font-size: 38px;">Our Services</h3>
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-third w3-center">
-      <a href="Repairs.html">
-      <img src="image/services.jpeg" style="width:100%"  class="w3-hover-opacity" alt="Service">
-      <p>Ongoing Repairs / Services</p>
-      </a>
-    </div>
-    <div class="w3-third w3-center">
-      <a href="Inventory.html">
-   
-      <img src="image/techstuff.jpg" style="width:100%"  class="w3-hover-opacity" alt="Products">
-       <p>In-Store Inventory</p>
-  </a>
-    </div>
-    <div class="w3-third w3-center">
-      <a href="https://www.etechparts.com/?srsltid=AfmBOooQ4UaGt9o4uLEp0TPewYAR8q1f5TAcr3QU9_vxZaaROxGFy16D">
-      <img src="image/parts.jpg" style="width:100%"  class="w3-hover-opacity" alt="Services">
-        <p>Order Replacement Parts</p>
-      </a>
-    </div>
-    
-  </div>
+  
  
 
   
@@ -127,18 +128,15 @@ body, html {
    
 
 <!-- Contact Section -->
-
-  <div style="margin-top:48px">    
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+   
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-center"></i> Rhode Island, US</p>
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-center"></i> Phone: +00 151515</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-center"></i> Email: Webreaktech@mail.com</p>
 
+    <br>
     
-    <!-- Image of location/map -->
-       <h3 class="w3-center">Our Locations</h3>
-    <img src="image/map2.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
-  </div>
-</div>
+    
 
 <!-- Footer -->
 <footer class="w3-center w3-blue w3-padding-64">
